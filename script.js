@@ -14,3 +14,6 @@ const searchInsert = function(nums, target) {
   }
   return indexForNum;
 };
+
+// Test ----> Expected output = 4
+console.log(searchInsert([11,23,24,36], 37));
